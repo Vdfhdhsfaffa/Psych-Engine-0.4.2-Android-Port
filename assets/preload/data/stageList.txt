@@ -7,4 +7,4 @@ mallEvil
 school
 schoolEvil
 exampleStage
-examplestage
+exampleStage2
