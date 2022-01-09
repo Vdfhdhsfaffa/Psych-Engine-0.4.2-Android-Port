@@ -112,5 +112,9 @@ class Hitbox extends FlxSpriteGroup
 			buttonDown = null;
 			buttonUp = null;
 			buttonRight = null;
+                        buttonLeft2 = null;
+                        buttonDown2 = null;
+                        buttonUp2 = null;
+                        buttonRight2 = null;
 		}
 }
