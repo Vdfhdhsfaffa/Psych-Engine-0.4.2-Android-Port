@@ -46,9 +46,9 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
-			['Raiden Alfares',		    'raidensus',		    'Made Osu engine idea',	 'https://youtube.com/channel/UChE0s906J1YZRf1Ln9wP8Gg',	'0xFFC30085'],
-			['Monika(Kinda sus),                'monkina',                      'Help me made a this engine', 'https://youtu.be/dQw4w9WgXcQ',      '0xFFC30085'] 		
+			['Osu Engine Team'],
+			['Raiden Alfares',		    'raiden',		    'the found idea Osu engine',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+                        ['Monika',                          'monika',               'Coder',                             'https://twitter.com/river_oaken',                             '0xFFFFDD33']              
 		];
 		
 		for(i in pisspoop){
