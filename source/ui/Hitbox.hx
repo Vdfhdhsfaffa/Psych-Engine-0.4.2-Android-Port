@@ -21,6 +21,10 @@ class Hitbox extends FlxSpriteGroup
 	public var buttonDown:FlxButton;
 	public var buttonUp:FlxButton;
 	public var buttonRight:FlxButton;
+	public var buttonLeft2:FlxButton;
+	public var buttonDown2:FlxButton;
+	public var buttonUp2:FlxButton;
+	public var buttonRight2:FlxButton;
 	
 	public function new(?widghtScreen:Float)
 	{
@@ -112,9 +116,5 @@ class Hitbox extends FlxSpriteGroup
 			buttonDown = null;
 			buttonUp = null;
 			buttonRight = null;
-                        buttonLeft2 = null;
-                        buttonDown2 = null;
-                        buttonUp2 = null;
-                        buttonRight2 = null;
 		}
 }
