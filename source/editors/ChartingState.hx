@@ -55,7 +55,7 @@ class ChartingState extends MusicBeatState
 	[
 		'',
 		'Alt Animation',
-		'BLAMNOTE', 
+		'BLAM_NOTE', 
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
