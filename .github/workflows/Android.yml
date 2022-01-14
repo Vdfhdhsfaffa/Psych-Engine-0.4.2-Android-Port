@@ -1,3 +1,24 @@
+Skip to content
+jigsaw-4277821
+/
+Psych-Engine-0.4.2-Android-Port
+Public template
+Code
+Issues
+1
+Pull requests
+15
+Actions
+Projects
+Wiki
+Security
+Insights
+Psych-Engine-0.4.2-Android-Port/.github/workflows/Android.yml
+@jigsaw-4277821
+jigsaw-4277821 Update Android.yml
+ History
+ 1 contributor
+77 lines (66 sloc)  2.74 KB
 # This is a basic workflow to help you get started with Actions
 
 name: Android Build CI
@@ -61,7 +82,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe --quiet
           haxelib git polymod https://github.com/MasterEric/polymod.git --quiet
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
-          haxelib git extension-webm https://github.com/jigsaw-4277821/extension-webm --quiet
+          haxelib git extension-webm https://github.com/Sirox228/extension-webm --quiet
           haxelib git linc_luajit https://github.com/Daninnocent/linc_luajit.git --quiet
           haxelib install actuate 
           haxelib list
@@ -74,4 +95,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Android Build
-          path: export/release/android/bin/app/build/outputs/apk/debug
+          path: export/release/android/bin/app/build/outputs/apk/debug 
